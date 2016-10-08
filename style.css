@@ -1,0 +1,26 @@
+.mobileSelect.multiple li:before {
+  content: "\f096";
+  font-family: FontAwesome;
+  padding-right: 1em;
+}
+.mobileSelect.multiple li.selected:before {
+  content: "\f046";
+}
+.mobileSelect.single li:before {
+  content: "\f10c";
+  font-family: FontAwesome;
+  padding-right: 1em;
+}
+.mobileSelect.single li.selected:before {
+  content: "\f192";
+}
+.mobileSelect li {
+  border-bottom: solid 1px #e1e1e1;
+  display: block;
+  padding: 1em 2em 1em 1em;
+  font-size: 1.5em;
+}
+.mobileSelect li.selected {
+  background-color: #28a4c9;
+  color: #fff;
+}
